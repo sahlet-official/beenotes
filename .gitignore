@@ -1,1 +1,8 @@
- 
+
+# ignore all contents of client/secrets/ folder
+client/secrets/*
+
+# Negation of ignore of client/secrets/crypt/src.crypt folder
+!client/secrets/crypt
+client/secrets/crypt/*
+!client/secrets/crypt/src.crypt

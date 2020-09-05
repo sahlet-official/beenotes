@@ -15,5 +15,5 @@ https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html
 
 to build signed android app use Android Studio (choose build **aab** - not **apk**):
 https://developer.android.com/studio/publish/app-signing
-there is already created upload key *android-upload-keystore.jks* in folder *client/secrets*;
-use *scrambler* to decript it
+there is already created upload key *android-upload-keystore.jks* in folder *client/secrets/src*;
+use *scrambler* to decript it from *client/secrets/crypt*
